@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="LinkedIn_logo_initials.png.webp">
+  <title> Linkedln Login, Sign in | Linkedln </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+  <style>
+    .forget {
+      text-decoration: none;
+    }
+
+    .forget:hover {
+      text-decoration: underline;
+    }
+
+    body {
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    .new {
+      display: block;
+    }
+
+    ul#menu li {
+      display: inline;
+    }
+
+    .f:hover {
+      text-decoration: underline;
+    }
+
+    p#horizontal {
+      display: flex;
+      flex-direction: row;
+      color: grey;
+    }
+
+    p#horizontal:before,
+    p#horizontal:after {
+      content: "";
+      flex: 1 1;
+      border-bottom: 1px solid #000;
+      margin: auto;
+    }
+
+    #left-menu {
+      display: none
+    }
+
+    #rightmenu {
+      display: none
+    }
+
+    #midcontent {
+      width: 100%
+    }
+
+    #rightmenu {
+      display: none;
+    }
+
+    #midcontent {
+      width: 80%
+    }
+  </style>
+  <br>
+  <header>
+    <a class=" navbar-brand" href="Home.html"
+      style="font-weight:bolder ;font-size: 26px; margin-left: 52px; color:#0072b1 ;">
+      Linked<i class="bi bi-linkedin" style="color:#0072b1; margin: 3px;">
+      </i></a>
+  </header>
+  <br>
+  <div class="row">
+    <div class="col-12 ">
+      <div class="card"
+        style="width: 22rem; height:33rem; margin: auto; border-radius:8px ; box-shadow:0 4px 12px rgb(0 0 0 / 15%);border-color: white; padding: 6px">
+        <div class="card-body">
+          <h2 style="margin-left:5px ;">Sign in</h2>
+          <p style="font-size:14px ;margin-left: 5px;">Stay updated on your professional world</p>
+
+          <div class="mb-3">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Email or Phone" style="height: 55px;width: 19rem; border-color: black;margin: auto;  ">
+          </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+              style="height: 55px; border-color: black; width: 19rem; margin:auto;">
+          </div>
+          <div>
+            <a href="#" class="forget">
+              <h6 style="margin-left:5px ;">Forgot Password?</h6>
+            </a>
+          </div>
+          <div class="mb-3">
+            <button type="button" class="btn btn-primary btn-lg btn-block rounded-pill"
+              style="width: 19rem; text-align: center; margin-left: 0.1rem;">
+              <h6 style=" margin-top: 8px; ">Sign in</h6>
+            </button>
+            <br><br>
+            <p id="horizontal"> &nbsp;&nbsp; or &nbsp;&nbsp;</p>
+          </div>
+          <div class="mb-3">
+            <button type="button" class="btn btn-outline-light btn-lg  rounded-pill"
+              style="width: 19rem; text-align: center;border:2px solid darkgrey; margin-left: 0.1rem;">
+              <h6 style=" color: grey; margin-bottom:3px ;"><img src="gmail.png" width="20px">&nbsp; Sign in with Google
+              </h6>
+            </button>
+          </div>
+          <div class="mb-3">
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill"
+              style="width: 19rem; text-align: center;border:2px solid darkgrey; margin-left: 0.1rem;">
+              <h6 style=" color: grey; margin-bottom: 3px;"><img src="apple.png" width="23px">&nbsp; Sign in with Apple
+              </h6>
+            </button>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="new" style="text-align: center;">
+        New to Linkedln?
+        <a href="Sign up.html" class="forget" style="font-weight: bold;">
+          Join now
+        </a>
+      </div>
+      <br>
+      <div class="row">
+        <div class="d-none d-lg-block">
+          <div class="col-12">
+            <footer class="footer" style="text-align: center; ">
+              <ul id="menu">
+                <li style="font-size: small; font-weight: bold;"> Linked<i class="bi bi-linkedin"
+                    style=" margin: 3px;"></i></li>
+                <li style="font-size: small;">&copy; 2022</li>&nbsp;&nbsp;
+                <li class="f" style="font-size: small;"><a href="#" style="color: grey; text-decoration: none;">User
+                    Aggrement</a></li>&nbsp;
+                <li class="f" style="font-size: small;"><a href="#" style="color: grey; text-decoration: none;">Privacy
+                    Policy</a></li>&nbsp;
+                <li class="f" style="font-size: small;"><a href="#"
+                    style="color: grey; text-decoration: none;">Community
+                    Guidlines</a></li>&nbsp;
+                <li class="f" style="font-size: small;"><a href="#" style="color: grey; text-decoration: none;">Cookie
+                    Policy</a></li>&nbsp;
+                <li class="f" style="font-size: small;"><a href="#"
+                    style="color: grey; text-decoration: none;">Copyright
+                    Policy</a></li>&nbsp;
+                <li class="f" style="font-size: small;"><a href="#" style="color: grey; text-decoration: none;">Send
+                    Feedback</a></li>&nbsp;
+
+            </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

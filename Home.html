@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="LinkedIn_logo_initials.png.webp">
+    <title>Linkedln: Log ln or Sign Up </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+    <style>
+        body {
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+
+        .vl {
+            border-left: 1px solid lightgrey;
+            margin-top: 5px;
+            height: 39px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .forget {
+            text-decoration: none;
+            color: black;
+        }
+
+        .forget:hover {
+            text-decoration: underline;
+            color: #0072b1;
+        }
+
+        p#horizontal {
+            display: flex;
+            flex-direction: row;
+            color: grey;
+            width: 25rem;
+
+        }
+
+        p#horizontal:before,
+        p#horizontal:after {
+            content: "";
+            flex: 1 1;
+            border-bottom: 1px solid #000;
+            margin: auto;
+        }
+
+        ul#menu li {
+            display: inline;
+        }
+
+        .f:hover {
+            text-decoration: underline;
+        }
+
+        ul#foot li {
+            list-style-type: none;
+            text-decoration: none;
+            color: grey;
+        }
+
+        ul#foot li:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <div class="container">
+        <div class="row" style="background-color: white;">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <nav class="navbar navbar-light ">
+                    <div class="container-fluid">
+                        <a class=" navbar-brand" href="#" style="font-weight:bolder ;font-size: 30px; color:#0072b1 ;">
+                            Linked<i class="bi bi-linkedin" style="color:#0072b1; margin: 3px;">
+                            </i></a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-lg-3 d-none d-lg-block" style="margin-left:120px ; margin-top: 15px;">
+                <div class="mb-3">
+                    <form class="d-flex" style="margin-top: 3px; ">
+                        <span class="d" style="text-align: center;">
+                            <i class="fa-sharp fa-solid fa-compass fa-lg ">
+                            </i>
+                            <p>Disover</p>
+                        </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="d" style="text-align: center;">
+                            <i class="fa-solid fa-users fa-lg"></i>
+                            </i>
+                            <p>People</p>
+                        </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="d" style="text-align: center;">
+                            <i class="fa-solid fa-paste fa-lg"></i>
+                            </i>
+                            <p>Learning</p>
+                        </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="d" style="text-align: center;">
+                            <i class="fa-solid fa-briefcase fa-lg"></i>
+                            </i>
+                            <p>Jobs</p>
+                        </span>&nbsp;&nbsp;&nbsp;
+                        <div class="vl"></div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-6" style="margin-left: 60px; margin-top: 15px;">
+                <div class="mb-3">
+                    <button type="button" class="btn btn-outline-light rounded-pill" href="Sign up.html"
+                        style="width: 100px; height:3rem ; color: black; border-color: white; "><a href="Sign up.html"
+                            style="color: black;">Join now</a></button>
+                    <button type="button" class="btn btn-outline-light rounded-pill"
+                        style="width: 100px; height:3rem ;border:2px solid #0072b1;color: #0072b1; font-weight: 500;"><a
+                            href="Login.html" style="color: #0072b1;">Sign in</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <p style="color: #8F5849; font-size: 56px; font-weight: 200;">Welcome to your<br>
+                    professional community</p>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Email or Phone"
+                        style="height: 50px;width: 25rem; border-color: black; border-radius: 0%; ">
+                </div>
+                <div class="mb-3">
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                        style="height: 50px; border-color: black; width: 25rem; border-radius: 0%;">
+                </div>
+                <div>
+                    <a href="#" class="forget">
+                        <h6>Forgot Password?</h6>
+                    </a>
+                </div>
+                <br>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-primary btn-lg btn-block rounded-pill"
+                        style="width: 25rem; text-align: center; ">
+                        <h6 style=" margin-top: 8px; ">Sign in</h6>
+                    </button>
+                    <br><br>
+                    <p id="horizontal"> &nbsp;&nbsp; or &nbsp;&nbsp;</p>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-outline-light btn-lg  rounded-pill"
+                        style="width: 25rem; text-align: center;border:2px solid darkgrey;">
+                        <h6 style=" color: grey; margin-top: 8px ; "><img src="gmail.png" width="20px">&nbsp;
+                            Sign
+                            in
+                            with Google
+                        </h6>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 d-none d-lg-block ">
+                <img src="2022-12-17 (2).png" style="margin-top: auto; height:80% ;">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row" style="background-color: whitesmoke;">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+            <br><br>
+            <p style=" font-size : 48px; font-weight: 200; margin-left: 35%; height: auto;">Explore topics you<br>
+                are interested in</p>
+            <br><br>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12">
+            <br><br>
+            <h2 style="font-size: 16px; font-weight: 600 ;color:rgba(0, 0, 0, 0.6); ">CONTENT TOPICS</h2>
+            <button type="button" class="btn btn-outline-light  rounded-pill mb-2"
+                style="width: auto ;text-align: center; border:2px solid #0072b1;">
+                <p style=" color: #0072b1; margin-bottom: 3px; font-size:20px ; font-weight: 600; "> See All Topics
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center; border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Workplace
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Job Search
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style="color: black; margin-bottom: 3px;"> Careers
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Interviewing
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Salary and Compensation
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Internships
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Employee Benefits
+                </p>
+            </button>
+            <br><br><br><br><br><br>
+        </div>
+    </div>
+
+    <br>
+    <div class="row" style="background-color: white; ">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+            <br>
+            <br>
+            <h2 style=" font-size: 48px; font-weight: 200; margin-left: 35%;">Find the right job
+                or internship for you</h2>
+            <br><br>
+        </div>
+        <div class="col-lg-5 col-md-12 col-sm-12">
+            <br>
+            <h2 style="font-size: 16px; font-weight: 600 ;color:rgba(0, 0, 0, 0.6); ">SUGGESTED SEARCHES</h2>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2 "
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;"> Engineering
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;"> Business Development
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Finance
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style="color: black; margin-bottom: 3px;"> Adminstrative Assistant
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Retail Associate
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Customer Servicce
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Operations
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Information Technology
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-3 "
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Marketing
+                </p>
+            </button>
+            <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-3"
+                style="width: auto; text-align: center;border:2px solid grey;">
+                <p style=" color: black; margin-bottom: 3px;">Human Resources
+                </p>
+            </button>
+        </div>
+    </div>
+
+    <br><br><br><br>
+    <div class="row" style="background-color: lightgrey;">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+            <br>
+            <br>
+            <h2 style="color: #b24020; font-size: 40px; font-weight: 400; margin-left: 35%;">Post your job for <br>
+                millions
+                of people to <br> see</h2>
+            <br><br><br>
+        </div>
+
+        <div class="col-lg-5 col-md-12 col-sm-12">
+            <div class="mb-3">
+                <button type="button" class="btn btn-outline-light rounded-pill"
+                    style="width: auto ;border:2px solid #0072b1; font-weight: 500; margin-left: 30%; margin-top: 10%;"><a
+                        href="Login.html" style="color: #0072b1; font-size: 20px; font-weight: 500;">Post a Job</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="background-color: whitesmoke;">
+        <div class="col-lg-7 col-md-12 col-sm-12">
+            <br>
+            <br><br><br><br>
+            <h2 style="color: #8f5849; font-size: 40px; font-weight: 400; margin-left: 35%;">Let the right people know
+                you’re open to work</h2>
+            <div>
+                <p style="font-size: 32px; font-weight: 200; margin-left: 35%;"> With the Open To Work feature, you can
+                    privately tell recruiters or publicly share with the LinkedIn community that you are looking for new
+                    job opportunities.
+
+                </p>
+            </div>
+        </div>
+
+        <div class="col-lg-5 col-md-12 col-sm-12">
+            <div class="mb-3">
+                <nav aria-label="Page navigation example" style="margin-left: 50%; margin-top: 5%;">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo; Previous</span>
+                            </a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">Next
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block ">
+                <img src="2022-12-17 (3).png" style="margin-top: auto ; height:auto ;">
+            </div>
+        </div>
+    </div>
+    </div>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 col-sm-12">
+                <br>
+                <img src="2022-12-17 (4).png" style="width: 70%;">
+                <br>
+                <div>
+                    <p style="font-size: 48px; font-weight: 200; ">Connect with people<br> who can help</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-outline-light btn-lg rounded-pill mb-2"
+                        style="width: auto; text-align: center; border: 1px solid black;">
+                        <p style=" color: darkslategrey; margin-bottom: 3px; font-size: 20px; font-weight: 600;"> Find
+                            People you know
+                        </p>
+                    </button>
+
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-6 col-sm-12">
+                <br>
+                <img src="2022-12-17 (5).png" style="width: 77%;">
+                <br>
+                <div>
+                    <p style="font-size: 48px; font-weight: 200; "> Learn the skills you<br> need to succeed</p>
+                </div>
+                <div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            style="border:1px solid darkgrey ; color: #000; width:19rem ;font-size: 20px; font-weight: 400; height:3rem ;">
+                            Choose a topic to learn about
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Training and Education</a></li>
+                            <li><a class="dropdown-item" href="#">IT Help Disk</a></li>
+                            <li><a class="dropdown-item" href="#">Bussiness Analysis and Strategy</a></li>
+                        </ul>
+                    </div>
+                    <br><br><br></br><br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+        <br><br><br><br><br>
+        <div class="container">
+        <div class="row">
+            <div class=" col-lg-12  d-none d-md-block"
+                style=" background-size: cover; height: 650px; background-image: url('Comm-Matters-Defining-Community-101-1.webp'); background-repeat: no-repeat;">
+                <br><br><br><br><br>
+                <h1 class="display-4" style=" margin-left: 50px;  font-size: 56px; font-weight: 200;">
+                    Join your colleagues, classmates, and friends on LinkedIn. </h1>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-primary btn-lg btn-block rounded-pill"
+                        style="width:150px; height: 3.5rem; text-align: center;margin-left: 52px;  ">
+                        <p style="font-size:20px ; font-weight: 600; margin-top:3px ;">Get Started</p>
+                    </button>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+        </div>
+            <div class="row">
+                <div class="col-lg-4 d-none d-lg-block">
+                    <img src="images (4).png" style="width:100% ;  ">
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <img src="images (3).png " style="width:100% ;">
+                </div>
+                <div class="col-lg-3 d-none d-lg-block">
+                    <img src="2022-12-18 (3).png" style="width:100% ;">
+                </div>
+                <div class="col-lg-2 d-none d-lg-block">
+                    <br><br>
+                    <img src="Comm-Matters-Defining-Community-101-1.webp" style="width:100% ; ">
+                </div>
+            </div>
+            <div class="row" style="background-color: whitesmoke;">
+
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <br>
+                    <a class=" navbar-brand" href="#" style="font-weight:700;font-size: 23px; color:#0072b1 ; margin-left: 30px;">
+                        Linked<i class="bi bi-linkedin" style="color:#0072b1; margin: 3px;">
+                        </i></a>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12">
+                    <br>
+                    <h3 class="text mb-2" style="font-size:16px ; font-weight:600 ; margin-left: 28px;">
+                        General
+                    </h3>
+                    <ul id="foot">
+                        <li><a href="" style="color: grey;">Sign Up</a></li>
+                        <li><a href="" style="color: grey;">Help Center</a></li>
+                        <li><a href="" style="color: grey;">About</a></li>
+                        <li><a href="" style="color: grey;">Press</a></li>
+                        <li><a href="" style="color: grey;">Blog</a></li>
+                        <li><a href="" style="color: grey;">Careers</a></li>
+                        <li><a href="" style="color: grey;">Developers</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12">
+                    <br>
+                    <h3 class="text mb-2" style="font-size:16px ; font-weight:600 ; margin-left: 28px;">
+                        Browse Linkedln
+                    </h3>
+                    <ul id="foot">
+                        <li><a href="" style="color: grey;">Learning</a></li>
+                        <li><a href="" style="color: grey;">Jobs</a></li>
+                        <li><a href="" style="color: grey;">Salary</a></li>
+                        <li><a href="" style="color: grey;">Mobile</a></li>
+                        <li><a href="" style="color: grey;">Services</a></li>
+                        <li><a href="" style="color: grey;">Products</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12">
+                    <br>
+                    <h3 class="text mb-2" style="font-size:16px ; font-weight:600 ; margin-left: 28px;">
+                        Business Solutions
+                    </h3>
+                    <ul id="foot">
+                        <li><a href="" style="color: grey;">Talent</a></li>
+                        <li><a href="" style="color: grey;">Marketing</a></li>
+                        <li><a href="" style="color: grey;">Sales</a></li>
+                        <li><a href="" style="color: grey;">Learning</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <br>
+                    <h3 class="text mb-2" style="font-size:16px ; font-weight:600 ; margin-left: 28px;">
+                        Directories
+                    </h3>
+                    <ul id="foot">
+                        <li><a href="" style="color: grey;">Members</a></li>
+                        <li><a href="" style="color: grey;">Jobs</a></li>
+                        <li><a href="" style="color: grey;">Companies</a></li>
+                        <li><a href="" style="color: grey;">Featured</a></li>
+                        <li><a href="" style="color: grey;">Learning</a></li>
+                        <li><a href="" style="color: grey;">Posts</a></li>
+                        <li><a href="" style="color: grey;">Articles</a></li>
+                        <li><a href="" style="color: grey;">Schools</a></li>
+                        <li><a href="" style="color: grey;">News</a></li>
+                        <li><a href="" style="color: grey;">News Letters</a></li>
+                        <li><a href="" style="color: grey;">Services</a></li>
+                        <li><a href="" style="color: grey;">Products</a></li>
+                        <li><a href="" style="color: grey;">Content Topics</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="d-none d-lg-block">
+                <div class="col-12">
+                    <footer class="footer" style="text-align: center; ">
+                        <ul id="menu">
+                            <li style="font-size: small; font-weight: bold;"> Linked<i class="bi bi-linkedin"
+                                    style=" margin: 3px;"></i></li>
+                            <li style="font-size: small;">&copy; 2022</li>&nbsp;&nbsp;
+                            <li class="f" style="font-size: small;"><a href="#"
+                                    style="color: grey; text-decoration: none;">User
+                                    Aggrement</a></li>&nbsp;
+                            <li class="f" style="font-size: small;"><a href="#"
+                                    style="color: grey; text-decoration: none;">Privacy
+                                    Policy</a></li>&nbsp;
+                            <li class="f" style="font-size: small;"><a href="#"
+                                    style="color: grey; text-decoration: none;">Community
+                                    Guidlines</a></li>&nbsp;
+                            <li class="f" style="font-size: small;"><a href="#"
+                                    style="color: grey; text-decoration: none;">Cookie
+                                    Policy</a></li>&nbsp;
+                            <li class="f" style="font-size: small;"><a href="#"
+                                    style="color: grey; text-decoration: none;">Copyright
+                                    Policy</a></li>&nbsp;
+                            <li class="f" style="font-size: small;"><a href="#"
+                                    style="color: grey; text-decoration: none;">Send
+                                    Feedback</a></li>&nbsp;
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+</body>
